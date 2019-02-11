@@ -142,6 +142,7 @@
                           <li><a href="http://urbandata-challenge.jp/">アーバンデータチャレンジ2018実行委員会</a></li>
                           <li><a href="http://www.city.kawasaki.jp/170/page/0000097015.html">平成30年度川崎市都市ブランド推進事業</a></li>
                           <li><a href="https://www.civicpowerbattle.org/">シビックパワーアライアンス実行委員会</a></li>
+                          <li><a href="https://code4cat.org/">Code for Cat&nbsp;&nbsp;(Special Thanks)</a></li>
                       </ul>
                   </article>
                   <article>
@@ -185,7 +186,7 @@
           attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
       }).addTo(map);
   
-      $.getJSON('/dist/web/data/kawasaki.geojson', function (data) {
+      $.getJSON('/data/kawasaki.geojson', function (data) {
           L.geoJson(data,{
               "color": "#666666",
               "weight": 2,
