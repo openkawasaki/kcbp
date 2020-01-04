@@ -1,8 +1,0 @@
-[project]
-name = kcbp
-
-[servers.ghpages]
-name = ghpages
-enabled = yes
-default = yes
-target = ghpages://openkawasaki/kcbp?cname=cpb.openkawasaki.org
